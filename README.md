@@ -30,6 +30,7 @@
 ## 섹션 4: 스크린샷
 
 ![청구기호1](https://github.com/taewoo1997/Portfolio/assets/108257288/1691dab8-1ac1-44bb-b1f6-0474a2d338c0)
+
 ![청구기호1_OCR](https://github.com/taewoo1997/Portfolio/assets/108257288/be91c440-bf67-4224-941f-dd1114564467)
 
 스크린샷에 대한 간단한 설명을 작성합니다.
