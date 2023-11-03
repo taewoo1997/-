@@ -36,7 +36,7 @@
 
 ## 섹션 5: 데모
 
-![객체탐지](https://github.com/taewoo1997/Portfolio/assets/108257288/5f968ad6-be79-48ab-b188-9ccee51744f0)
+![객체탐지](https://github.com/taewoo1997/Portfolio/assets/108257288/b90f4e01-395a-4190-b52c-453c6fa59cb7)
 
 프로젝트의 데모를 보여주는 GIF 파일과 간단한 설명을 작성합니다.
 
