@@ -29,13 +29,14 @@
 
 ## 섹션 4: 스크린샷
 
-![스크린샷 제목](/경로/스크린샷.png)
+![청구기호1](https://github.com/taewoo1997/Portfolio/assets/108257288/1691dab8-1ac1-44bb-b1f6-0474a2d338c0)
+![청구기호1_OCR](https://github.com/taewoo1997/Portfolio/assets/108257288/be91c440-bf67-4224-941f-dd1114564467)
 
 스크린샷에 대한 간단한 설명을 작성합니다.
 
 ## 섹션 5: 데모
 
-![데모 제목](/경로/데모.gif)
+![객체탐지](https://github.com/taewoo1997/Portfolio/assets/108257288/3b27d9f0-28f3-4126-9210-0267948f912f)
 
 프로젝트의 데모를 보여주는 GIF 파일과 간단한 설명을 작성합니다.
 
