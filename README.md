@@ -125,7 +125,7 @@ app.get('/getInfoCheckList/:state', function(request, response) {
 - 클라우드 환경에서 백엔드 서버 운영
 
 
-## 섹션 5: 데모
+## 데모
 ![ezgif com-resize (2)](https://github.com/taewoo1997/Portfolio/assets/108257288/f4ad1005-8aae-436e-82db-a9c1c205c77a)
 ![ezgif com-resize (1)](https://github.com/taewoo1997/Portfolio/assets/108257288/0db5a176-8644-4737-a966-08f9a33ad3d6)
 ![ezgif com-resize](https://github.com/taewoo1997/Portfolio/assets/108257288/5e29156c-a2bc-41bd-8ad2-af96c6cb0e82)
@@ -134,5 +134,6 @@ app.get('/getInfoCheckList/:state', function(request, response) {
 프로젝트의 데모를 보여주는 GIF 파일과 간단한 설명을 작성합니다.
 
 ## 섹션 6: 설치 및 실행
-
+![그림2](https://github.com/taewoo1997/Portfolio/assets/108257288/131a970c-e456-4d1f-8827-d7d2a4cf30c5)
+![그림1](https://github.com/taewoo1997/Portfolio/assets/108257288/0b364331-e4c4-4e32-9dcb-e78bfb49da6b)
 프로젝트를 설치하고 실행하는 방법에 대한 안내를 작성합니다.
