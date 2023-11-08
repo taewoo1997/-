@@ -42,8 +42,11 @@
 
 # 딥러닝 모델 기반 실시간 전신주 균열 탐지 <br>통합관리 애플리케이션
 ![크랙터 로고](https://github.com/taewoo1997/Portfolio/assets/108257288/6228700d-a3e9-47f3-9bcf-bca98145344e)
+크랙터 = CRACK + DETECTOR 
 
-딥러닝 기반 드론을 활용한 전신주 균열 탐지 시스템
+딥러닝 기반 드론을 활용한 전신주 균열 탐지 + 전신주 현황 통합관리 시스
+
+
 
 ## 프로젝트 개요
 
@@ -123,7 +126,9 @@ app.get('/getInfoCheckList/:state', function(request, response) {
 
 
 ## 섹션 5: 데모
-
+![ezgif com-resize (2)](https://github.com/taewoo1997/Portfolio/assets/108257288/f4ad1005-8aae-436e-82db-a9c1c205c77a)
+![ezgif com-resize (1)](https://github.com/taewoo1997/Portfolio/assets/108257288/0db5a176-8644-4737-a966-08f9a33ad3d6)
+![ezgif com-resize](https://github.com/taewoo1997/Portfolio/assets/108257288/5e29156c-a2bc-41bd-8ad2-af96c6cb0e82)
 
 
 프로젝트의 데모를 보여주는 GIF 파일과 간단한 설명을 작성합니다.
