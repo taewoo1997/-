@@ -166,6 +166,7 @@ app.get('/getInfoCheckList/:state', function(request, response) {
 
 
 # 3. 공포 이야기 게시판
+![공포 이야기 게시판](https://github.com/taewoo1997/Portfolio/assets/108257288/494b3cb7-67c1-4e51-aa24-34d9c9d60295)
 
 ## 서비스 내용
 
