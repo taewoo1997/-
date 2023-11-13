@@ -32,7 +32,7 @@
 
 ## 개발 내용
 
-이 섹션에서는 프로젝트의 세 번째 기능에 대한 설명을 작성합니다.
+- 
 
 ## 기능 분해도
 ![업무기능 분해도](https://github.com/taewoo1997/Portfolio/assets/108257288/b55a8e5f-39cf-411e-977f-7fff108d6730)
@@ -156,21 +156,16 @@ app.get('/getInfoCheckList/:state', function(request, response) {
 ![ezgif com-resize](https://github.com/taewoo1997/Portfolio/assets/108257288/5e29156c-a2bc-41bd-8ad2-af96c6cb0e82)
 
 
-프로젝트의 데모를 보여주는 GIF 파일과 간단한 설명을 작성합니다.
-
-
-
 ## 모델 적용 이미지
 ![그림2](https://github.com/taewoo1997/Portfolio/assets/108257288/131a970c-e456-4d1f-8827-d7d2a4cf30c5)
 ![그림1](https://github.com/taewoo1997/Portfolio/assets/108257288/0b364331-e4c4-4e32-9dcb-e78bfb49da6b)
-프로젝트를 설치하고 실행하는 방법에 대한 안내를 작성합니다.
+
 
 >
 >
+
 
 # 3. 공포 이야기 게시판
-
-
 
 ## 서비스 내용
 
@@ -178,10 +173,25 @@ app.get('/getInfoCheckList/:state', function(request, response) {
 
 ## 개발 기간
 
-이 섹션에서는 프로젝트의 두 번째 기능에 대한 설명을 작성합니다.
+2021.12.08~2022.12.14
 
 ## 개발 내용
 
-이 섹션에서는 프로젝트의 세 번째 기능에 대한 설명을 작성합니다.
+- 서버 설정
+  - express, http, socket.io, fs, ejs, cookie-parser, body-parser, mysql 패키지 사용
+- 미들웨어 설정
+  - cookie-parser: 쿠키 파싱
+  - body-parser: URL-encoded 데이터 파싱
+- 실시간 채팅
+  - 캔버스 + Socket.IO
+  - 실시간 통신을 위해 Socket.IO를 사용하고 있습니다.
+  - 간단한 실시간 채팅 구현이 있으며 클라이언트는 메시지를 보내고 받을 수 있습니다.
+  - 클라이언트가 그림을 그리고 다른 사용자의 그림을 볼 수 있는 실시간 캔버스 기능이 있습니다.
+  - 게스트는 색깔 있는 공으로 나타내어지며 Socket.IO를 통해 실시간으로 그들의 위치가 동기화됩니다.
+  - 새로운 사용자가 연결될 때(connection 이벤트), 새로운 공이 생성되고 해당 세부 정보가 모든 클라이언트에게 전파됩니다.
+  - 사용자가 연결을 끊을 때(disconnect 이벤트), 해당하는 공이 배열에서 제거되고 해당 삭제가 전파됩니다.
+  - 서버에는 좌표 업데이트 및 메시지 전송/수신과 관련된 이벤트를 처리합니다.
 
-## 서비스 스크린샷
+## 시연 영상
+
+[![공포 이야기 게시판](http://img.youtube.com/vi/46fq8Xru1VQ/0.jpg)](https://youtu.be/46fq8Xru1VQ)
