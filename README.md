@@ -54,7 +54,7 @@
 
 ## 시연 영상
 
-[![vision북체커_안드로이드 화면-resize](https://github.com/taewoo1997/Portfolio/assets/108257288/701f77e8-1655-486f-8ade-ad64bef9a9d3)](https://youtu.be/-kB-40hoIMY)
+[![vision북체커 전체](http://img.youtube.com/vi/-kB-40hoIMY/0.jpg)](https://youtu.be/-kB-40hoIMY)
 
 
 >
