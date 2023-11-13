@@ -12,11 +12,6 @@
 ![vision북체커_안드로이드_3_resize](https://github.com/taewoo1997/Portfolio/assets/108257288/0ae661a3-abc1-4fc9-98ca-43791b23a390)
 
 
-
-
-
-
-
 ## 서비스 내용
 
 도서관 서가 배열 순서 확인 애플리케이션. 도서관에서 책이 순서에 맞게 배열이 되어있는지 확인할 수 있. 스마트폰 카메라를 이용하여, 청구기호가 화면에 들어오도록 동영상 녹화를 진행한다. 동영상 녹화는 책장의 1줄(1칸) 단위로 진행하며 녹화된 동영상을 분석하여 순서가 잘못 되어 있는 책을 발견해낸다.
@@ -25,13 +20,15 @@
 2022.03.03~2022.11.02
 
 ## 기술 및 도구
-- 안드로이드 스튜디오 : 어플리케이션 개발
-- OpenCV : 동영상 분석 처리
-- SQLite : 데이터베이스
-- CLOVA OCR API : 청구기호 텍스트 추출
-- YOLO v5 : 객체탐지 모델
-- colab : 주피터노트북과 같은 환경으로, 파이썬 언어를 사용해 YOLO v5 모델 학습을 진행
-- Flask : 서버를 띄워 객체탐지 모델 배포
+- 언어: Java, Python
+- 데이터베이스: SQLite
+- 웹 프레임워크: Flask
+- 딥러닝 모델: YOLO v5 (Colab을 활용한 모델 학습)
+- OCR 서비스: 네이버 CLOVA OCR API
+- 이미지 및 비디오 처리 라이브러리: OpenCV
+- 이미지 업로드 및 저장: Werkzeug (secure_filename 활용)
+- API 통신: Retrofit2 (안드로이드 앱과의 통신)
+- 클라우드 플랫폼: OCI(Oracle Cloud Infrastructure)
 
 ## 개발 내용
 
@@ -45,13 +42,10 @@
 ![ERD2](https://github.com/taewoo1997/Portfolio/assets/108257288/6b17240c-0ea5-418b-ab6c-ec4efb7a7d72)
 
 
-## 서비스 스크린샷
+## OCR API 리턴값
 
 ![청구기호1](https://github.com/taewoo1997/Portfolio/assets/108257288/1691dab8-1ac1-44bb-b1f6-0474a2d338c0)
-
 ![청구기호1_OCR](https://github.com/taewoo1997/Portfolio/assets/108257288/be91c440-bf67-4224-941f-dd1114564467)
-
-스크린샷에 대한 간단한 설명을 작성합니다.
 
 ## 서비스 데모
 
