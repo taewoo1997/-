@@ -6,19 +6,33 @@
   
 # vision 북체커
 
-
-
 ## 서비스 내용
 
-도서관 서가 배열 순서 확인 애플리케이션
+도서관 서가 배열 순서 확인 애플리케이션. 도서관에서 책이 순서에 맞게 배열이 되어있는지 확인할 수 있. 스마트폰 카메라를 이용하여, 청구기호가 화면에 들어오도록 동영상 녹화를 진행한다. 동영상 녹화는 책장의 1줄(1칸) 단위로 진행하며 녹화된 동영상을 분석하여 순서가 잘못 되어 있는 책을 발견해낸다.
 
 ## 개발 기간
+2022.03.03~2022.11.02
 
-이 섹션에서는 프로젝트의 두 번째 기능에 대한 설명을 작성합니다.
+## 기술 및 도구
+- 안드로이드 스튜디오 : 어플리케이션 개발
+- OpenCV : 동영상 분석 처리
+- SQLite : 데이터베이스
+- CLOVA OCR API : 청구기호 텍스트 추출
+- YOLO v5 : 객체탐지 모델
+- colab : 주피터노트북과 같은 환경으로, 파이썬 언어를 사용해 YOLO v5 모델 학습을 진행
+- Flask : 서버를 띄워 객체탐지 모델 배포
 
 ## 개발 내용
 
 이 섹션에서는 프로젝트의 세 번째 기능에 대한 설명을 작성합니다.
+
+## 기능 분해도
+![업무기능 분해도](https://github.com/taewoo1997/Portfolio/assets/108257288/b55a8e5f-39cf-411e-977f-7fff108d6730)
+
+## ERD
+![ERD](https://github.com/taewoo1997/Portfolio/assets/108257288/bda7b2d1-ab01-42d1-9838-3e9476ffc28b)
+![ERD2](https://github.com/taewoo1997/Portfolio/assets/108257288/6b17240c-0ea5-418b-ab6c-ec4efb7a7d72)
+
 
 ## 서비스 스크린샷
 
@@ -34,16 +48,21 @@
 
 프로젝트의 데모를 보여주는 GIF 파일과 간단한 설명을 작성합니다.
 
-## 성장 경험
+## 모델 성능 평가 지표
+![모델처리과정](https://github.com/taewoo1997/Portfolio/assets/108257288/7cb2996c-0a99-4a25-9746-71011b39fc12)<br>
+![mAP](https://github.com/taewoo1997/Portfolio/assets/108257288/80d5f5f0-17aa-40a7-af9a-0785801c7688)
 
-프로젝트를 설치하고 실행하는 방법에 대한 안내를 작성합니다.
+## 시연 영상
+
+[![vision북체커_안드로이드 화면](https://github.com/taewoo1997/Portfolio/assets/108257288/d1e52201-10f4-4b61-9693-94c070dee8a5)](https://youtu.be/-kB-40hoIMY)
+
 
 >
 > 
 
 # 딥러닝 모델 기반 실시간 전신주 균열 탐지 <br>통합관리 애플리케이션
 ![크랙터 로고](https://github.com/taewoo1997/Portfolio/assets/108257288/6228700d-a3e9-47f3-9bcf-bca98145344e)
-크랙터 = CRACK + DETECTOR 
+<br>크랙터 = CRACK + DETECTOR 
 
 딥러닝 기반 드론을 활용한 전신주 균열 탐지 + 전신주 현황 통합관리 시스
 
