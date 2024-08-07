@@ -23,11 +23,11 @@
 - 언어: Java, Python
 - 데이터베이스: SQLite
 - 웹 프레임워크: Flask
-- 딥러닝 모델: YOLO v5 (Colab을 활용한 모델 학습)
+- 딥러닝 모델: YOLO v5 (Google Colab에서 모델 학습)
 - OCR 서비스: 네이버 CLOVA OCR API
 - 이미지 및 비디오 처리 라이브러리: OpenCV
-- 이미지 업로드 및 저장: Werkzeug (secure_filename 활용)
-- API 통신: Retrofit2 (안드로이드 앱과의 통신)
+- 이미지 업로드 및 저장: Werkzeug (secure_filename 기능 사용)
+- API 통신: Retrofit2 (안드로이드 앱과의 통신에 사용)
 - 클라우드 플랫폼: OCI(Oracle Cloud Infrastructure)
 
 ## 개발 내용
