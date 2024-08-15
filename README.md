@@ -12,7 +12,7 @@
 ![vision북체커_안드로이드_3_resize](https://github.com/taewoo1997/Portfolio/assets/108257288/0ae661a3-abc1-4fc9-98ca-43791b23a390)
 
 
-## 서비스 내용
+## 서비스 개요
 
 도서관 서가 배열 순서 확인 애플리케이션. 도서관에서 책이 순서에 맞게 배열이 되어있는지 확인할 수 있다. 스마트폰 카메라를 이용하여, 청구기호가 화면에 들어오도록 동영상 녹화를 진행한다. 동영상 녹화는 책장의 1줄(1칸) 단위로 진행하며 녹화된 동영상을 분석하여 순서가 잘못 되어 있는 책을 발견해낸다.
 
@@ -30,7 +30,7 @@
 - API 통신: Retrofit2 (안드로이드 앱과의 통신에 사용)
 - 클라우드 플랫폼: OCI(Oracle Cloud Inf과
 
-## 개발 내용
+## 개발 상세
 
 ### 프로젝트 구조 설계 및 구현
 
@@ -61,7 +61,7 @@
 ## 기능 분해도
 ![업무기능 분해도](https://github.com/taewoo1997/Portfolio/assets/108257288/b55a8e5f-39cf-411e-977f-7fff108d6730)
 
-## 데이터베이스 ERD
+## DB ERD
 ![ERD](https://github.com/taewoo1997/Portfolio/assets/108257288/bda7b2d1-ab01-42d1-9838-3e9476ffc28b)
 ![ERD2](https://github.com/taewoo1997/Portfolio/assets/108257288/6b17240c-0ea5-418b-ab6c-ec4efb7a7d72)
 
@@ -73,7 +73,7 @@
 ![모델처리과정](https://github.com/taewoo1997/Portfolio/assets/108257288/7cb2996c-0a99-4a25-9746-71011b39fc12)<br>
 ![mAP](https://github.com/taewoo1997/Portfolio/assets/108257288/80d5f5f0-17aa-40a7-af9a-0785801c7688)
 
-## 객체탐지 성능 테스트
+## 객체 탐지 성능 테스트
 ![객체탐지](https://github.com/taewoo1997/Portfolio/assets/108257288/b90f4e01-395a-4190-b52c-453c6fa59cb7)
 
 
