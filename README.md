@@ -181,6 +181,8 @@ app.get('/getInfoCheckList/:state', function(request, response) {
 ![그림1](https://github.com/taewoo1997/Portfolio/assets/108257288/0b364331-e4c4-4e32-9dcb-e78bfb49da6b)
 
 
+## 시연 영상
+[![크랙터](http://img.youtube.com/vi/1x9wASq72lI/0.jpg)](https://youtu.be/1x9wASq72lI)
 >
 >
 
